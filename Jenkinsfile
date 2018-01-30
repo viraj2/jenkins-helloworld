@@ -26,7 +26,7 @@ node('master') {
 			sh "cp target/helloworld.hpi helloworld.hpi"
 		}
 		else{
-			bat "cp target\\helloworld.hpi helloworld.hpi"
+			bat "copy target\\helloworld.hpi helloworld.hpi"
 		}
 	}
 	
