@@ -21,4 +21,15 @@ node('master') {
 				bat "mvn package -P ${buildtarget}"
 		   }	
     }
+	stage('Copy') {
+		if (isUnix()) {
+			sh "mv target/helloworld.hpi helloworld.hpi"
+		}
+		else{
+			bat "move target/helloworld.hpi helloworld.hpi"
+		}
+	}
+	stage('Clean') {
+    	deleteDir()
+    }
 }
