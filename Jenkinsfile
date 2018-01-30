@@ -10,13 +10,15 @@ node('master') {
 		echo workSpaceHome
 		load(workSpaceHome + "/config.groovy")
 		echo "loading done"
+		echo "${buildtarget}"
+		echo "${buildversion}"
 			if (isUnix()) {
-				sh "mvn compile"
-				sh "mvn package"
+				sh "mvn compile -Dbuild.version=${buildversion}"
+				sh "mvn package -P ${buildtarget}"
 			}
 			else{
-				bat "mvn compile"
-				bat "mvn package"
+				bat "mvn compile -Dbuild.version=${buildversion}"
+				bat "mvn package -P ${buildtarget}"
 		   }	
     }
 }
