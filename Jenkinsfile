@@ -1,4 +1,4 @@
-ode('master') {
+node('master') {
     def workSpaceHome = pwd()
     stage('Clean') {
         deleteDir()
