@@ -23,10 +23,10 @@ node('master') {
     }
 	stage('Copy') {
 		if (isUnix()) {
-			sh "mv target/helloworld.hpi helloworld.hpi"
+			sh "cp target/helloworld.hpi helloworld.hpi"
 		}
 		else{
-			bat "move target\\helloworld.hpi helloworld.hpi"
+			bat "cp target\\helloworld.hpi helloworld.hpi"
 		}
 	}
 	
