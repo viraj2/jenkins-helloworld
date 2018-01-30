@@ -29,7 +29,5 @@ node('master') {
 			bat "move target\\helloworld.hpi helloworld.hpi"
 		}
 	}
-	stage('Clean') {
-    	deleteDir()
-    }
+	
 }
