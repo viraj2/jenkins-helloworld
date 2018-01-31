@@ -1,0 +1,287 @@
+Jan 31, 2018 4:35:11 PM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:54755/jenkins/
+Jan 31, 2018 4:35:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jan 31, 2018 4:35:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jan 31, 2018 4:35:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jan 31, 2018 4:35:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jan 31, 2018 4:35:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jan 31, 2018 4:35:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jan 31, 2018 4:35:11 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 54772
+Jan 31, 2018 4:35:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+=== Starting testBuild(org.jenkinsci.plugins.sample.HelloWorldBuilderTest)
+Jan 31, 2018 4:35:11 PM hudson.Util warnWindowsSymlink
+WARNING: Symbolic links enabled on this platform but disabled for this user; run as administrator or use Local Security Policy > Security Settings > Local Policies > User Rights Assignment > Create symbolic links
+Jan 31, 2018 4:35:12 PM hudson.model.Run execute
+INFO: test0 #1 main build action completed: SUCCESS
+Jan 31, 2018 4:35:12 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Jan 31, 2018 4:35:12 PM jenkins.model.Jenkins$21 onAttained
+INFO: Started termination
+Jan 31, 2018 4:35:12 PM jenkins.model.Jenkins$21 onAttained
+INFO: Completed termination
+Jan 31, 2018 4:35:12 PM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Jan 31, 2018 4:35:12 PM hudson.TcpSlaveAgentListener$ConnectionHandler run
+INFO: Accepted connection #2 from /10.12.42.208:54776
+Jan 31, 2018 4:35:12 PM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Jan 31, 2018 4:35:12 PM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Jan 31, 2018 4:35:12 PM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+Jan 31, 2018 4:35:12 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Jan 31, 2018 4:35:12 PM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:54777/jenkins/
+Jan 31, 2018 4:35:12 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jan 31, 2018 4:35:12 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jan 31, 2018 4:35:12 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jan 31, 2018 4:35:12 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jan 31, 2018 4:35:12 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jan 31, 2018 4:35:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jan 31, 2018 4:35:13 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 54794
+Jan 31, 2018 4:35:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+=== Starting testConfigRoundtrip(org.jenkinsci.plugins.sample.HelloWorldBuilderTest)
+Jan 31, 2018 4:35:17 PM com.gargoylesoftware.htmlunit.javascript.host.css.CSSStyleSheet isValidSelector
+WARNING: Unhandled CSS condition type '7'. Accepting it silently.
+Jan 31, 2018 4:35:17 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.host.css.CSSStyleSheet isValidSelector
+WARNING: Unhandled CSS condition type '7'. Accepting it silently.
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:18 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396718459'] :input.block-control' error: Invalid selector: *[id="sizzle1517396718459"] *:input.block-control).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:32 PM com.gargoylesoftware.htmlunit.javascript.host.css.CSSStyleSheet isValidSelector
+WARNING: Unhandled CSS condition type '7'. Accepting it silently.
+Jan 31, 2018 4:35:32 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:54777/jenkins/static/3ea7b166/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:33 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Jan 31, 2018 4:35:33 PM jenkins.model.Jenkins$21 onAttained
+INFO: Started termination
+Jan 31, 2018 4:35:33 PM jenkins.model.Jenkins$21 onAttained
+INFO: Completed termination
+Jan 31, 2018 4:35:33 PM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Jan 31, 2018 4:35:33 PM hudson.TcpSlaveAgentListener$ConnectionHandler run
+INFO: Accepted connection #3 from /10.12.42.208:54803
+Jan 31, 2018 4:35:33 PM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Jan 31, 2018 4:35:33 PM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Jan 31, 2018 4:35:33 PM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+Jan 31, 2018 4:35:33 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Jan 31, 2018 4:35:33 PM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:54804/jenkins/
+Jan 31, 2018 4:35:33 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jan 31, 2018 4:35:33 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jan 31, 2018 4:35:33 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jan 31, 2018 4:35:33 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jan 31, 2018 4:35:33 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jan 31, 2018 4:35:33 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jan 31, 2018 4:35:33 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 54821
+Jan 31, 2018 4:35:33 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+=== Starting testConfigRoundtripFrench(org.jenkinsci.plugins.sample.HelloWorldBuilderTest)
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.host.css.CSSStyleSheet isValidSelector
+WARNING: Unhandled CSS condition type '7'. Accepting it silently.
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.host.css.CSSStyleSheet isValidSelector
+WARNING: Unhandled CSS condition type '7'. Accepting it silently.
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:36 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1517396736458'] :input.block-control' error: Invalid selector: *[id="sizzle1517396736458"] *:input.block-control).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:48 PM com.gargoylesoftware.htmlunit.javascript.host.css.CSSStyleSheet isValidSelector
+WARNING: Unhandled CSS condition type '7'. Accepting it silently.
+Jan 31, 2018 4:35:48 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:54804/jenkins/static/9de3327d/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+Jan 31, 2018 4:35:48 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Jan 31, 2018 4:35:48 PM jenkins.model.Jenkins$21 onAttained
+INFO: Started termination
+Jan 31, 2018 4:35:48 PM jenkins.model.Jenkins$21 onAttained
+INFO: Completed termination
+Jan 31, 2018 4:35:48 PM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Jan 31, 2018 4:35:49 PM hudson.TcpSlaveAgentListener$ConnectionHandler run
+INFO: Accepted connection #4 from /10.12.42.208:54830
+Jan 31, 2018 4:35:49 PM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Jan 31, 2018 4:35:49 PM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Jan 31, 2018 4:35:49 PM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+Jan 31, 2018 4:35:49 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Jan 31, 2018 4:35:49 PM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:54831/jenkins/
+Jan 31, 2018 4:35:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jan 31, 2018 4:35:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jan 31, 2018 4:35:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jan 31, 2018 4:35:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jan 31, 2018 4:35:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jan 31, 2018 4:35:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jan 31, 2018 4:35:49 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 54848
+Jan 31, 2018 4:35:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+=== Starting testBuildFrench(org.jenkinsci.plugins.sample.HelloWorldBuilderTest)
+Jan 31, 2018 4:35:49 PM hudson.model.Run execute
+INFO: test0 #1 main build action completed: SUCCESS
+Jan 31, 2018 4:35:49 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Jan 31, 2018 4:35:49 PM jenkins.model.Jenkins$21 onAttained
+INFO: Started termination
+Jan 31, 2018 4:35:49 PM jenkins.model.Jenkins$21 onAttained
+INFO: Completed termination
+Jan 31, 2018 4:35:49 PM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Jan 31, 2018 4:35:49 PM hudson.TcpSlaveAgentListener$ConnectionHandler run
+INFO: Accepted connection #5 from /10.12.42.208:54852
+Jan 31, 2018 4:35:49 PM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Jan 31, 2018 4:35:49 PM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Jan 31, 2018 4:35:49 PM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+Jan 31, 2018 4:35:49 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Jan 31, 2018 4:35:49 PM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:54853/jenkins/
+Jan 31, 2018 4:35:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jan 31, 2018 4:35:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jan 31, 2018 4:35:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jan 31, 2018 4:35:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jan 31, 2018 4:35:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jan 31, 2018 4:35:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jan 31, 2018 4:35:50 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 54870
+Jan 31, 2018 4:35:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+=== Starting testScriptedPipeline(org.jenkinsci.plugins.sample.HelloWorldBuilderTest)
+Jan 31, 2018 4:35:52 PM hudson.slaves.CommandLauncher launch
+INFO: agent launched for slave0
+Jan 31, 2018 4:35:53 PM org.jenkinsci.plugins.workflow.job.WorkflowRun finish
+INFO: test-scripted-pipeline #1 completed: SUCCESS
+Jan 31, 2018 4:35:53 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Jan 31, 2018 4:35:53 PM jenkins.model.Jenkins$21 onAttained
+INFO: Started termination
+Jan 31, 2018 4:35:53 PM jenkins.model.Jenkins$21 onAttained
+INFO: Completed termination
+Jan 31, 2018 4:35:53 PM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Jan 31, 2018 4:35:53 PM hudson.TcpSlaveAgentListener$ConnectionHandler run
+INFO: Accepted connection #6 from /10.12.42.208:54880
+Jan 31, 2018 4:35:53 PM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Jan 31, 2018 4:35:53 PM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Jan 31, 2018 4:35:53 PM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+Jan 31, 2018 4:35:53 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped

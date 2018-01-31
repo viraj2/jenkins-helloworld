@@ -12,6 +12,15 @@ import hudson.tasks.BuildStepDescriptor;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.QueryParameter;
 
+import hudson.model.Hudson;
+import hudson.slaves.EnvironmentVariablesNodeProperty;
+import hudson.slaves.NodeProperty;
+
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Set;
+import java.util.Iterator;
+
 import javax.servlet.ServletException;
 import java.io.IOException;
 import jenkins.tasks.SimpleBuildStep;
@@ -45,9 +54,28 @@ public class HelloWorldBuilder extends Builder implements SimpleBuildStep {
     public void perform(Run<?, ?> run, FilePath workspace, Launcher launcher, TaskListener listener) throws InterruptedException, IOException {
         if (useFrench) {
             listener.getLogger().println("Bonjour, " + name + "!");
-        } else {
-            listener.getLogger().println("Hello, " + name + "!");
         }
+		else 
+		{
+            listener.getLogger().println("Hello, " + name + "!");
+		}
+			Map<String, String> globalNodeProperties = new HashMap<String, String>();
+			
+			for (NodeProperty<?> nodeProperty : Hudson.getInstance().getGlobalNodeProperties()) 
+			{
+				if (nodeProperty instanceof EnvironmentVariablesNodeProperty) 
+				{
+					globalNodeProperties.putAll(((EnvironmentVariablesNodeProperty) nodeProperty).getEnvVars());
+				}
+			}
+			Set keys = globalNodeProperties.keySet();
+
+		    for (Iterator i = keys.iterator(); i.hasNext(); ) 
+			{
+			   String key = (String) i.next();
+			   String value = (String) globalNodeProperties.get(key);
+			   System.out.println(key + " = " + value);
+		    }
     }
 
     @Symbol("greet")

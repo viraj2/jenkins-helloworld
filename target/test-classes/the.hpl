@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: helloworld
+Long-Name: TODO Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-34e27c2a-viraj.chhaiya)
+Hudson-Version: 2.7.3
+Jenkins-Version: 2.7.3
+Plugin-Dependencies: structs:1.7
+Plugin-Developers: 
+Libraries: D:\Jenkins plugins\helloworld\src\main\resources,D:\Jenkins
+  plugins\helloworld\target\classes
+Resource-Path: D:\Jenkins plugins\helloworld\src\main\webapp
+

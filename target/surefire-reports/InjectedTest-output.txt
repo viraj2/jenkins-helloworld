@@ -1,0 +1,64 @@
+Running tests for org.jenkins-ci.plugins:helloworld:1.0-SNAPSHOT
+Jan 31, 2018 4:34:54 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @856ms
+Exploding C:\Users\viraj.chhaiya\.m2\repository\org\jenkins-ci\main\jenkins-war\2.7.3\jenkins-war-2.7.3.war into D:\Jenkins plugins\helloworld\target\jenkins-for-test
+Jan 31, 2018 4:35:01 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Jan 31, 2018 4:35:01 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.15.v20160210
+Jan 31, 2018 4:35:01 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Jan 31, 2018 4:35:01 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@5812f68b{/,file:/D:/Jenkins%20plugins/helloworld/target/jenkins-for-test/,AVAILABLE}{D:\Jenkins plugins\helloworld\target\jenkins-for-test}
+Jan 31, 2018 4:35:01 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@5b1ebf56{HTTP/1.1}{localhost:54727}
+Jan 31, 2018 4:35:01 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @7981ms
+Jan 31, 2018 4:35:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jan 31, 2018 4:35:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jan 31, 2018 4:35:06 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jan 31, 2018 4:35:06 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jan 31, 2018 4:35:06 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jan 31, 2018 4:35:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jan 31, 2018 4:35:08 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 54744
+Jan 31, 2018 4:35:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jan 31, 2018 4:35:08 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.15.v20160210
+Jan 31, 2018 4:35:08 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@470a696f{/,null,AVAILABLE}
+Jan 31, 2018 4:35:08 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@3f1c5af9{HTTP/1.1}{0.0.0.0:54746}
+Jan 31, 2018 4:35:08 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @14698ms
+Jan 31, 2018 4:35:10 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@5b1ebf56{HTTP/1.1}{localhost:0}
+Jan 31, 2018 4:35:10 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@5812f68b{/,file:/D:/Jenkins%20plugins/helloworld/target/jenkins-for-test/,UNAVAILABLE}{D:\Jenkins plugins\helloworld\target\jenkins-for-test}
+Jan 31, 2018 4:35:10 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Jan 31, 2018 4:35:10 PM jenkins.model.Jenkins$21 onAttained
+INFO: Started termination
+Jan 31, 2018 4:35:10 PM jenkins.model.Jenkins$21 onAttained
+INFO: Completed termination
+Jan 31, 2018 4:35:10 PM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Jan 31, 2018 4:35:10 PM hudson.TcpSlaveAgentListener$ConnectionHandler run
+INFO: Accepted connection #1 from /10.12.42.208:54754
+Jan 31, 2018 4:35:10 PM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Jan 31, 2018 4:35:10 PM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Jan 31, 2018 4:35:10 PM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+Jan 31, 2018 4:35:10 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped

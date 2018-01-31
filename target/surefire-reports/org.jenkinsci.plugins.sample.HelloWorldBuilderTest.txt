@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.jenkinsci.plugins.sample.HelloWorldBuilderTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.061 s - in org.jenkinsci.plugins.sample.HelloWorldBuilderTest

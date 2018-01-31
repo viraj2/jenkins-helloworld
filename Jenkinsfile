@@ -23,10 +23,10 @@ node('master') {
     }
 	stage('Copy') {
 		if (isUnix()) {
-			sh "cp target/helloworld.hpi helloworld.hpi"
+			sh "cp target/qmetry-for-jira-test-management.hpi /var/lib/jenkins/workspace/QMETRY_AUTH_BUILDS/${env.JOB_NAME}_${env.BUILD_NUMBER}.hpi"
 		}
 		else{
-			bat "copy target\\helloworld.hpi helloworld.hpi"
+			bat "copy target\\qmetry-for-jira-test-management.hpi \\var\\lib\\jenkins\\workspace\\QMETRY_AUTH_BUILDS\\${env.JOB_NAME}_${env.BUILD_NUMBER}.hpi"
 		}
 	}
 	
